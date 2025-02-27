@@ -384,3 +384,13 @@ const ProductDetail = () => {
         <section className="container py-12">
           <h2 className="text-2xl font-display font-bold mb-6">Similar Products</h2>
           <div className="text-center py-12 bg-muted/20 rounded-lg">
+            <p className="text-muted-foreground">Similar products will appear here</p>
+          </div>
+        </section>
+      </main>
+      <Footer />
+    </div>
+  );
+};
+
+export default ProductDetail;
